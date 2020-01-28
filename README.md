@@ -1,5 +1,5 @@
 # ClCons
-ClCons is an extension to clear console logs in the active editor using the command 'clcons'.
+Visual Studio Code extension to clear console logs in the active editor using the command 'clcons'.
 
 ![ClCons](https://i.imgur.com/KBsaRov.gif)
 
