@@ -14,7 +14,7 @@ The extension run locally, just package and use.
 # Install dependencies
 npm install
 
-# Run
+# Start
 F5 to run
 ````
 
