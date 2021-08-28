@@ -2,7 +2,7 @@
 	"name": "clcons",
 	"displayName": "ClCons",
 	"version": "1.0.1",
-	"description": "Visual Studio Code extension to clear console logs in the active editor using the command 'clcons'",
+	"description": "Visual Studio Code extension for clear console logs in the active editor",
 	"author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
 	"license": "MIT",
 	"main": "./src/extension.js",
@@ -40,8 +40,8 @@
 		]
 	},
 	"devDependencies": {
-		"eslint": "^6.8.0",
-		"eslint-config-airbnb-base": "^14.0.0",
-		"eslint-plugin-import": "^2.20.0"
+		"eslint": "^7.32.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.24.0"
 	}
 }
