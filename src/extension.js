@@ -1,5 +1,7 @@
 const vscode = require('vscode');
 
+const { constants } = require('./utils');
+
 function getAllLogStatements(document, documentText) {
   const logStatements = [];
   const logRegex = /console.(log|debug|info|warn|error|assert|dir|dirxml|trace|group|groupEnd|time|timeEnd|profile|profileEnd|count)\((.*)\);?/g;
@@ -27,18 +29,18 @@ function deleteFoundLogStatements(workspaceEdit, docUri, logs) {
   });
 
   vscode.workspace.applyEdit(workspaceEdit).then(() => {
-    vscode.window.showInformationMessage(`${logs.length} console.log(s) deleted`);
+    vscode.window.showInformationMessage(`${logs.length} ${constants.MESSAGE_CONSOLE_REMOVED}`);
   });
 }
 
 function activate(context) {
   console.log('ClCons is now active!');
 
-  const disposable = vscode.commands.registerCommand('extension.clcons', () => {
+  const disposable = vscode.commands.registerCommand(constants.COMMAND_NAME, () => {
     const editor = vscode.window.activeTextEditor;
 
     if (!editor) {
-      vscode.window.showErrorMessage('Can\'t remove log because no document is open');
+      vscode.window.showErrorMessage(constants.MESSAGE_CONSOLE_CANT_REMOVE);
     } else {
       const { document } = editor;
       const text = editor.document.getText();

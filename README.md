@@ -7,11 +7,8 @@ Visual Studio Code extension for clear console logs in the active editor.
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=xxgicoxx.clcons">
-    <img alt="Marketplace" src="https://vsmarketplacebadge.apphb.com/version-short/xxgicoxx.clcons.svg?style=for-the-badge&label=Marketplace&color=5f01bc"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=xxgicoxx.clcons">
-    <img alt="Installs" src="https://vsmarketplacebadge.apphb.com/installs-short/xxgicoxx.clcons.svg?style=for-the-badge&color=5f01bc"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=xxgicoxx.clcons">
-    <img alt="Rating" src="https://vsmarketplacebadge.apphb.com/rating-short/xxgicoxx.clcons.svg?style=for-the-badge&color=5f01bc"></a>
+    <img alt="Marketplace" src="https://img.shields.io/visual-studio-marketplace/d/xxgicoxx.clcons.svg">
+  </a>
 </p>
 
 # Prerequisites
