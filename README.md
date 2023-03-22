@@ -33,7 +33,7 @@ clcons-[VERSION].vsix
 npm install
 
 # Start
-F5 to run
+F5 to run.
 ````
 
 # Built With
