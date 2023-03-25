@@ -11,6 +11,9 @@ Visual Studio Code extension for clear console logs in the active editor.
   </a>
 </p>
 
+# Features
+* Clear console logs
+
 # Prerequisites
 * [Node.js](https://nodejs.org/en/)
 
