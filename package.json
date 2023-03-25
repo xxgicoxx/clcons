@@ -1,7 +1,7 @@
 {
 	"name": "clcons",
 	"displayName": "ClCons",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Visual Studio Code extension for clear console logs in the active editor",
 	"author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
 	"license": "MIT",
